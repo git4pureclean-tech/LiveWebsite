@@ -1,0 +1,2308 @@
+{
+  "/about-us/": {
+    "view": {
+      "kind": "view",
+      "label": "Page view",
+      "placement": "Page"
+    },
+    "page-content-skip-to-content": {
+      "kind": "navigation",
+      "label": "Skip to content",
+      "placement": "Page content"
+    },
+    "header-pureclean-carpet-care-home": {
+      "kind": "navigation",
+      "label": "PureClean Carpet Care home",
+      "placement": "Header"
+    },
+    "header-services": {
+      "kind": "navigation",
+      "label": "Services",
+      "placement": "Header"
+    },
+    "header-our-work": {
+      "kind": "navigation",
+      "label": "Our work",
+      "placement": "Header"
+    },
+    "header-about": {
+      "kind": "navigation",
+      "label": "About",
+      "placement": "Header"
+    },
+    "header-service-areas": {
+      "kind": "navigation",
+      "label": "Service areas",
+      "placement": "Header"
+    },
+    "header-contact": {
+      "kind": "contact",
+      "label": "Contact",
+      "placement": "Header"
+    },
+    "header-647-803-8776": {
+      "kind": "call",
+      "label": "(647) 803-8776",
+      "placement": "Header"
+    },
+    "header-call-now": {
+      "kind": "call",
+      "label": "Call now",
+      "placement": "Header"
+    },
+    "header-menu": {
+      "kind": "menu",
+      "label": "Menu ☰",
+      "placement": "Header"
+    },
+    "page-content-home": {
+      "kind": "navigation",
+      "label": "Home",
+      "placement": "Page content"
+    },
+    "page-introduction-call-now": {
+      "kind": "call",
+      "label": "Call now",
+      "placement": "Page introduction"
+    },
+    "page-introduction-message-on-whatsapp": {
+      "kind": "whatsapp",
+      "label": "Message on WhatsApp",
+      "placement": "Page introduction"
+    },
+    "on-this-page-who-comes-to-your-home": {
+      "kind": "navigation",
+      "label": "Who comes to your home",
+      "placement": "On this page"
+    },
+    "on-this-page-equipment-and-products": {
+      "kind": "navigation",
+      "label": "Equipment and products",
+      "placement": "On this page"
+    },
+    "on-this-page-insurance-and-our-guarantee": {
+      "kind": "navigation",
+      "label": "Insurance and our guarantee",
+      "placement": "On this page"
+    },
+    "bottom-contact-section-call-now": {
+      "kind": "call",
+      "label": "Call now",
+      "placement": "Bottom contact section"
+    },
+    "bottom-contact-section-message-on-whatsapp": {
+      "kind": "whatsapp",
+      "label": "Message on WhatsApp",
+      "placement": "Bottom contact section"
+    },
+    "footer-pureclean-carpet-care-home": {
+      "kind": "navigation",
+      "label": "PureClean Carpet Care home",
+      "placement": "Footer"
+    },
+    "footer-residential-carpets": {
+      "kind": "navigation",
+      "label": "Residential carpets",
+      "placement": "Footer"
+    },
+    "footer-sofas-upholstery": {
+      "kind": "navigation",
+      "label": "Sofas & upholstery",
+      "placement": "Footer"
+    },
+    "footer-area-rugs": {
+      "kind": "navigation",
+      "label": "Area rugs",
+      "placement": "Footer"
+    },
+    "footer-commercial-carpets": {
+      "kind": "navigation",
+      "label": "Commercial carpets",
+      "placement": "Footer"
+    },
+    "footer-about-us": {
+      "kind": "navigation",
+      "label": "About us",
+      "placement": "Footer"
+    },
+    "footer-our-work": {
+      "kind": "navigation",
+      "label": "Our work",
+      "placement": "Footer"
+    },
+    "footer-service-areas": {
+      "kind": "navigation",
+      "label": "Service areas",
+      "placement": "Footer"
+    },
+    "footer-care-guides": {
+      "kind": "navigation",
+      "label": "Care guides",
+      "placement": "Footer"
+    },
+    "footer-contact-us": {
+      "kind": "contact",
+      "label": "Contact us",
+      "placement": "Footer"
+    },
+    "footer-647-803-8776": {
+      "kind": "call",
+      "label": "(647) 803-8776",
+      "placement": "Footer"
+    },
+    "footer-purecleancarpetscare-gmail-com": {
+      "kind": "email",
+      "label": "purecleancarpetscare@gmail.com",
+      "placement": "Footer"
+    },
+    "footer-whatsapp": {
+      "kind": "whatsapp",
+      "label": "WhatsApp",
+      "placement": "Footer"
+    },
+    "footer-analytics-and-privacy": {
+      "kind": "navigation",
+      "label": "Analytics and privacy",
+      "placement": "Footer"
+    }
+  },
+  "/contact/": {
+    "view": {
+      "kind": "view",
+      "label": "Page view",
+      "placement": "Page"
+    },
+    "page-content-skip-to-content": {
+      "kind": "navigation",
+      "label": "Skip to content",
+      "placement": "Page content"
+    },
+    "header-pureclean-carpet-care-home": {
+      "kind": "navigation",
+      "label": "PureClean Carpet Care home",
+      "placement": "Header"
+    },
+    "header-services": {
+      "kind": "navigation",
+      "label": "Services",
+      "placement": "Header"
+    },
+    "header-our-work": {
+      "kind": "navigation",
+      "label": "Our work",
+      "placement": "Header"
+    },
+    "header-about": {
+      "kind": "navigation",
+      "label": "About",
+      "placement": "Header"
+    },
+    "header-service-areas": {
+      "kind": "navigation",
+      "label": "Service areas",
+      "placement": "Header"
+    },
+    "header-contact": {
+      "kind": "contact",
+      "label": "Contact",
+      "placement": "Header"
+    },
+    "header-647-803-8776": {
+      "kind": "call",
+      "label": "(647) 803-8776",
+      "placement": "Header"
+    },
+    "header-call-now": {
+      "kind": "call",
+      "label": "Call now",
+      "placement": "Header"
+    },
+    "header-menu": {
+      "kind": "menu",
+      "label": "Menu ☰",
+      "placement": "Header"
+    },
+    "page-content-home": {
+      "kind": "navigation",
+      "label": "Home",
+      "placement": "Page content"
+    },
+    "contact-details-call-647-803-8776": {
+      "kind": "call",
+      "label": "Call (647) 803-8776",
+      "placement": "Contact details"
+    },
+    "contact-details-message-on-whatsapp": {
+      "kind": "whatsapp",
+      "label": "Message on WhatsApp",
+      "placement": "Contact details"
+    },
+    "contact-details-647-803-8776": {
+      "kind": "call",
+      "label": "(647) 803-8776",
+      "placement": "Contact details"
+    },
+    "contact-details-purecleancarpetscare-gmail-com": {
+      "kind": "email",
+      "label": "purecleancarpetscare@gmail.com",
+      "placement": "Contact details"
+    },
+    "contact-details-chat-on-whatsapp": {
+      "kind": "whatsapp",
+      "label": "Chat on WhatsApp",
+      "placement": "Contact details"
+    },
+    "whatsapp-form-open-message-in-whatsapp": {
+      "kind": "button",
+      "label": "Open message in WhatsApp",
+      "placement": "WhatsApp form"
+    },
+    "whatsapp-form-open-message-in-whatsapp:submit": {
+      "kind": "whatsapp_form",
+      "label": "Valid form handed off to WhatsApp",
+      "placement": "WhatsApp form"
+    },
+    "whatsapp-form-647-803-8776": {
+      "kind": "call",
+      "label": "(647) 803-8776",
+      "placement": "WhatsApp form"
+    },
+    "whatsapp-form-start-a-whatsapp-chat": {
+      "kind": "whatsapp",
+      "label": "start a WhatsApp chat",
+      "placement": "WhatsApp form"
+    },
+    "frequently-asked-questions-how-long-before-i-can-walk-on-the-carpet": {
+      "kind": "faq",
+      "label": "How long before I can walk on the carpet?",
+      "placement": "Frequently asked questions"
+    },
+    "frequently-asked-questions-can-i-book-a-same-day-visit": {
+      "kind": "faq",
+      "label": "Can I book a same-day visit?",
+      "placement": "Frequently asked questions"
+    },
+    "frequently-asked-questions-what-products-do-you-use": {
+      "kind": "faq",
+      "label": "What products do you use?",
+      "placement": "Frequently asked questions"
+    },
+    "frequently-asked-questions-what-if-a-spot-still-needs-attention": {
+      "kind": "faq",
+      "label": "What if a spot still needs attention?",
+      "placement": "Frequently asked questions"
+    },
+    "frequently-asked-questions-can-i-change-or-cancel-my-appointment": {
+      "kind": "faq",
+      "label": "Can I change or cancel my appointment?",
+      "placement": "Frequently asked questions"
+    },
+    "frequently-asked-questions-when-do-i-pay": {
+      "kind": "faq",
+      "label": "When do I pay?",
+      "placement": "Frequently asked questions"
+    },
+    "footer-pureclean-carpet-care-home": {
+      "kind": "navigation",
+      "label": "PureClean Carpet Care home",
+      "placement": "Footer"
+    },
+    "footer-residential-carpets": {
+      "kind": "navigation",
+      "label": "Residential carpets",
+      "placement": "Footer"
+    },
+    "footer-sofas-upholstery": {
+      "kind": "navigation",
+      "label": "Sofas & upholstery",
+      "placement": "Footer"
+    },
+    "footer-area-rugs": {
+      "kind": "navigation",
+      "label": "Area rugs",
+      "placement": "Footer"
+    },
+    "footer-commercial-carpets": {
+      "kind": "navigation",
+      "label": "Commercial carpets",
+      "placement": "Footer"
+    },
+    "footer-about-us": {
+      "kind": "navigation",
+      "label": "About us",
+      "placement": "Footer"
+    },
+    "footer-our-work": {
+      "kind": "navigation",
+      "label": "Our work",
+      "placement": "Footer"
+    },
+    "footer-service-areas": {
+      "kind": "navigation",
+      "label": "Service areas",
+      "placement": "Footer"
+    },
+    "footer-care-guides": {
+      "kind": "navigation",
+      "label": "Care guides",
+      "placement": "Footer"
+    },
+    "footer-contact-us": {
+      "kind": "contact",
+      "label": "Contact us",
+      "placement": "Footer"
+    },
+    "footer-647-803-8776": {
+      "kind": "call",
+      "label": "(647) 803-8776",
+      "placement": "Footer"
+    },
+    "footer-purecleancarpetscare-gmail-com": {
+      "kind": "email",
+      "label": "purecleancarpetscare@gmail.com",
+      "placement": "Footer"
+    },
+    "footer-whatsapp": {
+      "kind": "whatsapp",
+      "label": "WhatsApp",
+      "placement": "Footer"
+    },
+    "footer-analytics-and-privacy": {
+      "kind": "navigation",
+      "label": "Analytics and privacy",
+      "placement": "Footer"
+    }
+  },
+  "/guides/diy-or-professional-carpet-cleaning/": {
+    "view": {
+      "kind": "view",
+      "label": "Page view",
+      "placement": "Page"
+    },
+    "page-content-skip-to-content": {
+      "kind": "navigation",
+      "label": "Skip to content",
+      "placement": "Page content"
+    },
+    "header-pureclean-carpet-care-home": {
+      "kind": "navigation",
+      "label": "PureClean Carpet Care home",
+      "placement": "Header"
+    },
+    "header-services": {
+      "kind": "navigation",
+      "label": "Services",
+      "placement": "Header"
+    },
+    "header-our-work": {
+      "kind": "navigation",
+      "label": "Our work",
+      "placement": "Header"
+    },
+    "header-about": {
+      "kind": "navigation",
+      "label": "About",
+      "placement": "Header"
+    },
+    "header-service-areas": {
+      "kind": "navigation",
+      "label": "Service areas",
+      "placement": "Header"
+    },
+    "header-contact": {
+      "kind": "contact",
+      "label": "Contact",
+      "placement": "Header"
+    },
+    "header-647-803-8776": {
+      "kind": "call",
+      "label": "(647) 803-8776",
+      "placement": "Header"
+    },
+    "header-call-now": {
+      "kind": "call",
+      "label": "Call now",
+      "placement": "Header"
+    },
+    "header-menu": {
+      "kind": "menu",
+      "label": "Menu ☰",
+      "placement": "Header"
+    },
+    "page-content-home": {
+      "kind": "navigation",
+      "label": "Home",
+      "placement": "Page content"
+    },
+    "page-content-care-guides": {
+      "kind": "navigation",
+      "label": "Care guides",
+      "placement": "Page content"
+    },
+    "page-introduction-call-now": {
+      "kind": "call",
+      "label": "Call now",
+      "placement": "Page introduction"
+    },
+    "page-introduction-message-on-whatsapp": {
+      "kind": "whatsapp",
+      "label": "Message on WhatsApp",
+      "placement": "Page introduction"
+    },
+    "on-this-page-start-with-the-fibre-and-the-spill": {
+      "kind": "navigation",
+      "label": "Start with the fibre and the spill",
+      "placement": "On this page"
+    },
+    "on-this-page-look-beyond-the-surface": {
+      "kind": "navigation",
+      "label": "Look beyond the surface",
+      "placement": "On this page"
+    },
+    "on-this-page-compare-the-whole-job": {
+      "kind": "navigation",
+      "label": "Compare the whole job",
+      "placement": "On this page"
+    },
+    "on-this-page-keep-the-cleaning-record": {
+      "kind": "navigation",
+      "label": "Keep the cleaning record",
+      "placement": "On this page"
+    },
+    "bottom-contact-section-call-now": {
+      "kind": "call",
+      "label": "Call now",
+      "placement": "Bottom contact section"
+    },
+    "bottom-contact-section-message-on-whatsapp": {
+      "kind": "whatsapp",
+      "label": "Message on WhatsApp",
+      "placement": "Bottom contact section"
+    },
+    "footer-pureclean-carpet-care-home": {
+      "kind": "navigation",
+      "label": "PureClean Carpet Care home",
+      "placement": "Footer"
+    },
+    "footer-residential-carpets": {
+      "kind": "navigation",
+      "label": "Residential carpets",
+      "placement": "Footer"
+    },
+    "footer-sofas-upholstery": {
+      "kind": "navigation",
+      "label": "Sofas & upholstery",
+      "placement": "Footer"
+    },
+    "footer-area-rugs": {
+      "kind": "navigation",
+      "label": "Area rugs",
+      "placement": "Footer"
+    },
+    "footer-commercial-carpets": {
+      "kind": "navigation",
+      "label": "Commercial carpets",
+      "placement": "Footer"
+    },
+    "footer-about-us": {
+      "kind": "navigation",
+      "label": "About us",
+      "placement": "Footer"
+    },
+    "footer-our-work": {
+      "kind": "navigation",
+      "label": "Our work",
+      "placement": "Footer"
+    },
+    "footer-service-areas": {
+      "kind": "navigation",
+      "label": "Service areas",
+      "placement": "Footer"
+    },
+    "footer-care-guides": {
+      "kind": "navigation",
+      "label": "Care guides",
+      "placement": "Footer"
+    },
+    "footer-contact-us": {
+      "kind": "contact",
+      "label": "Contact us",
+      "placement": "Footer"
+    },
+    "footer-647-803-8776": {
+      "kind": "call",
+      "label": "(647) 803-8776",
+      "placement": "Footer"
+    },
+    "footer-purecleancarpetscare-gmail-com": {
+      "kind": "email",
+      "label": "purecleancarpetscare@gmail.com",
+      "placement": "Footer"
+    },
+    "footer-whatsapp": {
+      "kind": "whatsapp",
+      "label": "WhatsApp",
+      "placement": "Footer"
+    },
+    "footer-analytics-and-privacy": {
+      "kind": "navigation",
+      "label": "Analytics and privacy",
+      "placement": "Footer"
+    },
+    "page-content-on-site-cleaning-and-rug-pickup": {
+      "kind": "navigation",
+      "label": "on-site cleaning and rug pickup",
+      "placement": "Page content"
+    },
+    "page-content-residential-carpet-cleaning-page": {
+      "kind": "navigation",
+      "label": "residential carpet cleaning page",
+      "placement": "Page content"
+    }
+  },
+  "/guides/": {
+    "view": {
+      "kind": "view",
+      "label": "Page view",
+      "placement": "Page"
+    },
+    "page-content-skip-to-content": {
+      "kind": "navigation",
+      "label": "Skip to content",
+      "placement": "Page content"
+    },
+    "header-pureclean-carpet-care-home": {
+      "kind": "navigation",
+      "label": "PureClean Carpet Care home",
+      "placement": "Header"
+    },
+    "header-services": {
+      "kind": "navigation",
+      "label": "Services",
+      "placement": "Header"
+    },
+    "header-our-work": {
+      "kind": "navigation",
+      "label": "Our work",
+      "placement": "Header"
+    },
+    "header-about": {
+      "kind": "navigation",
+      "label": "About",
+      "placement": "Header"
+    },
+    "header-service-areas": {
+      "kind": "navigation",
+      "label": "Service areas",
+      "placement": "Header"
+    },
+    "header-contact": {
+      "kind": "contact",
+      "label": "Contact",
+      "placement": "Header"
+    },
+    "header-647-803-8776": {
+      "kind": "call",
+      "label": "(647) 803-8776",
+      "placement": "Header"
+    },
+    "header-call-now": {
+      "kind": "call",
+      "label": "Call now",
+      "placement": "Header"
+    },
+    "header-menu": {
+      "kind": "menu",
+      "label": "Menu ☰",
+      "placement": "Header"
+    },
+    "page-content-home": {
+      "kind": "navigation",
+      "label": "Home",
+      "placement": "Page content"
+    },
+    "page-content-when-to-clean-a-carpet-yourself-decide-whether-a-spot-cleaner-a-rental-or-a-p": {
+      "kind": "navigation",
+      "label": "When to clean a carpet yourself Decide whether a spot cleaner, a rental or a professional visit suits your carpet. Start with the fibre, the size of the jo",
+      "placement": "Page content"
+    },
+    "bottom-contact-section-call-now": {
+      "kind": "call",
+      "label": "Call now",
+      "placement": "Bottom contact section"
+    },
+    "bottom-contact-section-message-on-whatsapp": {
+      "kind": "whatsapp",
+      "label": "Message on WhatsApp",
+      "placement": "Bottom contact section"
+    },
+    "footer-pureclean-carpet-care-home": {
+      "kind": "navigation",
+      "label": "PureClean Carpet Care home",
+      "placement": "Footer"
+    },
+    "footer-residential-carpets": {
+      "kind": "navigation",
+      "label": "Residential carpets",
+      "placement": "Footer"
+    },
+    "footer-sofas-upholstery": {
+      "kind": "navigation",
+      "label": "Sofas & upholstery",
+      "placement": "Footer"
+    },
+    "footer-area-rugs": {
+      "kind": "navigation",
+      "label": "Area rugs",
+      "placement": "Footer"
+    },
+    "footer-commercial-carpets": {
+      "kind": "navigation",
+      "label": "Commercial carpets",
+      "placement": "Footer"
+    },
+    "footer-about-us": {
+      "kind": "navigation",
+      "label": "About us",
+      "placement": "Footer"
+    },
+    "footer-our-work": {
+      "kind": "navigation",
+      "label": "Our work",
+      "placement": "Footer"
+    },
+    "footer-service-areas": {
+      "kind": "navigation",
+      "label": "Service areas",
+      "placement": "Footer"
+    },
+    "footer-care-guides": {
+      "kind": "navigation",
+      "label": "Care guides",
+      "placement": "Footer"
+    },
+    "footer-contact-us": {
+      "kind": "contact",
+      "label": "Contact us",
+      "placement": "Footer"
+    },
+    "footer-647-803-8776": {
+      "kind": "call",
+      "label": "(647) 803-8776",
+      "placement": "Footer"
+    },
+    "footer-purecleancarpetscare-gmail-com": {
+      "kind": "email",
+      "label": "purecleancarpetscare@gmail.com",
+      "placement": "Footer"
+    },
+    "footer-whatsapp": {
+      "kind": "whatsapp",
+      "label": "WhatsApp",
+      "placement": "Footer"
+    },
+    "footer-analytics-and-privacy": {
+      "kind": "navigation",
+      "label": "Analytics and privacy",
+      "placement": "Footer"
+    }
+  },
+  "/": {
+    "view": {
+      "kind": "view",
+      "label": "Page view",
+      "placement": "Page"
+    },
+    "page-content-skip-to-content": {
+      "kind": "navigation",
+      "label": "Skip to content",
+      "placement": "Page content"
+    },
+    "header-pureclean-carpet-care-home": {
+      "kind": "navigation",
+      "label": "PureClean Carpet Care home",
+      "placement": "Header"
+    },
+    "header-services": {
+      "kind": "navigation",
+      "label": "Services",
+      "placement": "Header"
+    },
+    "header-our-work": {
+      "kind": "navigation",
+      "label": "Our work",
+      "placement": "Header"
+    },
+    "header-about": {
+      "kind": "navigation",
+      "label": "About",
+      "placement": "Header"
+    },
+    "header-service-areas": {
+      "kind": "navigation",
+      "label": "Service areas",
+      "placement": "Header"
+    },
+    "header-contact": {
+      "kind": "contact",
+      "label": "Contact",
+      "placement": "Header"
+    },
+    "header-647-803-8776": {
+      "kind": "call",
+      "label": "(647) 803-8776",
+      "placement": "Header"
+    },
+    "header-call-now": {
+      "kind": "call",
+      "label": "Call now",
+      "placement": "Header"
+    },
+    "header-menu": {
+      "kind": "menu",
+      "label": "Menu ☰",
+      "placement": "Header"
+    },
+    "homepage-hero-call-now-647-803-8776": {
+      "kind": "call",
+      "label": "Call now · (647) 803-8776",
+      "placement": "Homepage hero"
+    },
+    "homepage-hero-message-on-whatsapp": {
+      "kind": "whatsapp",
+      "label": "Message on WhatsApp",
+      "placement": "Homepage hero"
+    },
+    "before-and-after-compare-the-carpet-before-and-after-cleaning": {
+      "kind": "comparison",
+      "label": "Compare the carpet before and after cleaning",
+      "placement": "Before and after"
+    },
+    "before-and-after-see-pureclean-s-project-photos": {
+      "kind": "navigation",
+      "label": "See PureClean’s project photos",
+      "placement": "Before and after"
+    },
+    "page-content-explore-treatments": {
+      "kind": "navigation",
+      "label": "Explore treatments",
+      "placement": "Page content"
+    },
+    "services-list-residential-carpets-rooms-stairs-and-high-traffic-areas": {
+      "kind": "navigation",
+      "label": "Residential carpets Rooms, stairs and high-traffic areas. ↗",
+      "placement": "Services list"
+    },
+    "services-list-sofas-upholstery-fabric-care-for-sofas-sectionals-and-chairs": {
+      "kind": "navigation",
+      "label": "Sofas & upholstery Fabric care for sofas, sectionals and chairs. ↗",
+      "placement": "Services list"
+    },
+    "services-list-area-rugs-in-home-cleaning-and-pickup-for-delicate-rugs": {
+      "kind": "navigation",
+      "label": "Area rugs In-home cleaning and pickup for delicate rugs. ↗",
+      "placement": "Services list"
+    },
+    "services-list-commercial-carpets-offices-retail-floors-and-shared-spaces": {
+      "kind": "navigation",
+      "label": "Commercial carpets Offices, retail floors and shared spaces. ↗",
+      "placement": "Services list"
+    },
+    "page-content-meet-pureclean": {
+      "kind": "navigation",
+      "label": "Meet PureClean",
+      "placement": "Page content"
+    },
+    "page-content-read-reviews-on-google": {
+      "kind": "navigation",
+      "label": "Read reviews on Google",
+      "placement": "Page content"
+    },
+    "frequently-asked-questions-how-long-before-i-can-walk-on-the-carpet": {
+      "kind": "faq",
+      "label": "How long before I can walk on the carpet?",
+      "placement": "Frequently asked questions"
+    },
+    "frequently-asked-questions-can-i-book-a-same-day-visit": {
+      "kind": "faq",
+      "label": "Can I book a same-day visit?",
+      "placement": "Frequently asked questions"
+    },
+    "frequently-asked-questions-what-products-do-you-use": {
+      "kind": "faq",
+      "label": "What products do you use?",
+      "placement": "Frequently asked questions"
+    },
+    "frequently-asked-questions-what-if-a-spot-still-needs-attention": {
+      "kind": "faq",
+      "label": "What if a spot still needs attention?",
+      "placement": "Frequently asked questions"
+    },
+    "frequently-asked-questions-can-i-change-or-cancel-my-appointment": {
+      "kind": "faq",
+      "label": "Can I change or cancel my appointment?",
+      "placement": "Frequently asked questions"
+    },
+    "frequently-asked-questions-when-do-i-pay": {
+      "kind": "faq",
+      "label": "When do I pay?",
+      "placement": "Frequently asked questions"
+    },
+    "bottom-contact-section-call-now": {
+      "kind": "call",
+      "label": "Call now",
+      "placement": "Bottom contact section"
+    },
+    "bottom-contact-section-message-on-whatsapp": {
+      "kind": "whatsapp",
+      "label": "Message on WhatsApp",
+      "placement": "Bottom contact section"
+    },
+    "footer-pureclean-carpet-care-home": {
+      "kind": "navigation",
+      "label": "PureClean Carpet Care home",
+      "placement": "Footer"
+    },
+    "footer-residential-carpets": {
+      "kind": "navigation",
+      "label": "Residential carpets",
+      "placement": "Footer"
+    },
+    "footer-sofas-upholstery": {
+      "kind": "navigation",
+      "label": "Sofas & upholstery",
+      "placement": "Footer"
+    },
+    "footer-area-rugs": {
+      "kind": "navigation",
+      "label": "Area rugs",
+      "placement": "Footer"
+    },
+    "footer-commercial-carpets": {
+      "kind": "navigation",
+      "label": "Commercial carpets",
+      "placement": "Footer"
+    },
+    "footer-about-us": {
+      "kind": "navigation",
+      "label": "About us",
+      "placement": "Footer"
+    },
+    "footer-our-work": {
+      "kind": "navigation",
+      "label": "Our work",
+      "placement": "Footer"
+    },
+    "footer-service-areas": {
+      "kind": "navigation",
+      "label": "Service areas",
+      "placement": "Footer"
+    },
+    "footer-care-guides": {
+      "kind": "navigation",
+      "label": "Care guides",
+      "placement": "Footer"
+    },
+    "footer-contact-us": {
+      "kind": "contact",
+      "label": "Contact us",
+      "placement": "Footer"
+    },
+    "footer-647-803-8776": {
+      "kind": "call",
+      "label": "(647) 803-8776",
+      "placement": "Footer"
+    },
+    "footer-purecleancarpetscare-gmail-com": {
+      "kind": "email",
+      "label": "purecleancarpetscare@gmail.com",
+      "placement": "Footer"
+    },
+    "footer-whatsapp": {
+      "kind": "whatsapp",
+      "label": "WhatsApp",
+      "placement": "Footer"
+    },
+    "footer-analytics-and-privacy": {
+      "kind": "navigation",
+      "label": "Analytics and privacy",
+      "placement": "Footer"
+    },
+    "homepage-metrics-google-reviews": {
+      "kind": "navigation",
+      "label": "Read Google reviews from the homepage metrics",
+      "placement": "Business metrics"
+    }
+  },
+  "/our-work/": {
+    "view": {
+      "kind": "view",
+      "label": "Page view",
+      "placement": "Page"
+    },
+    "page-content-skip-to-content": {
+      "kind": "navigation",
+      "label": "Skip to content",
+      "placement": "Page content"
+    },
+    "header-pureclean-carpet-care-home": {
+      "kind": "navigation",
+      "label": "PureClean Carpet Care home",
+      "placement": "Header"
+    },
+    "header-services": {
+      "kind": "navigation",
+      "label": "Services",
+      "placement": "Header"
+    },
+    "header-our-work": {
+      "kind": "navigation",
+      "label": "Our work",
+      "placement": "Header"
+    },
+    "header-about": {
+      "kind": "navigation",
+      "label": "About",
+      "placement": "Header"
+    },
+    "header-service-areas": {
+      "kind": "navigation",
+      "label": "Service areas",
+      "placement": "Header"
+    },
+    "header-contact": {
+      "kind": "contact",
+      "label": "Contact",
+      "placement": "Header"
+    },
+    "header-647-803-8776": {
+      "kind": "call",
+      "label": "(647) 803-8776",
+      "placement": "Header"
+    },
+    "header-call-now": {
+      "kind": "call",
+      "label": "Call now",
+      "placement": "Header"
+    },
+    "header-menu": {
+      "kind": "menu",
+      "label": "Menu ☰",
+      "placement": "Header"
+    },
+    "page-content-home": {
+      "kind": "navigation",
+      "label": "Home",
+      "placement": "Page content"
+    },
+    "google-project-gallery-open-google-business-profile": {
+      "kind": "navigation",
+      "label": "Open Google Business Profile",
+      "placement": "Google project gallery"
+    },
+    "google-project-gallery-view-full-photo-of-equipment-set-up-for-a-commercial-carpet-clean": {
+      "kind": "navigation",
+      "label": "View full photo of equipment set up for a commercial carpet clean",
+      "placement": "Google project gallery"
+    },
+    "google-project-gallery-view-full-photo-of-carpeted-stair-treads": {
+      "kind": "navigation",
+      "label": "View full photo of carpeted stair treads",
+      "placement": "Google project gallery"
+    },
+    "google-project-gallery-view-full-photo-of-residential-hallway": {
+      "kind": "navigation",
+      "label": "View full photo of residential hallway",
+      "placement": "Google project gallery"
+    },
+    "videos-commercial-cleaning:play": {
+      "kind": "video_play",
+      "label": "Commercial cleaning · play",
+      "placement": "Videos"
+    },
+    "videos-commercial-cleaning:pause": {
+      "kind": "video_pause",
+      "label": "Commercial cleaning · pause",
+      "placement": "Videos"
+    },
+    "videos-commercial-cleaning:end": {
+      "kind": "video_end",
+      "label": "Commercial cleaning · end",
+      "placement": "Videos"
+    },
+    "videos-commercial-cleaning:seek": {
+      "kind": "video_seek",
+      "label": "Commercial cleaning · seek",
+      "placement": "Videos"
+    },
+    "videos-residential-cleaning:play": {
+      "kind": "video_play",
+      "label": "Residential cleaning · play",
+      "placement": "Videos"
+    },
+    "videos-residential-cleaning:pause": {
+      "kind": "video_pause",
+      "label": "Residential cleaning · pause",
+      "placement": "Videos"
+    },
+    "videos-residential-cleaning:end": {
+      "kind": "video_end",
+      "label": "Residential cleaning · end",
+      "placement": "Videos"
+    },
+    "videos-residential-cleaning:seek": {
+      "kind": "video_seek",
+      "label": "Residential cleaning · seek",
+      "placement": "Videos"
+    },
+    "videos-carpet-extraction-in-action:play": {
+      "kind": "video_play",
+      "label": "Carpet extraction in action · play",
+      "placement": "Videos"
+    },
+    "videos-carpet-extraction-in-action:pause": {
+      "kind": "video_pause",
+      "label": "Carpet extraction in action · pause",
+      "placement": "Videos"
+    },
+    "videos-carpet-extraction-in-action:end": {
+      "kind": "video_end",
+      "label": "Carpet extraction in action · end",
+      "placement": "Videos"
+    },
+    "videos-carpet-extraction-in-action:seek": {
+      "kind": "video_seek",
+      "label": "Carpet extraction in action · seek",
+      "placement": "Videos"
+    },
+    "videos-open-the-mp4": {
+      "kind": "navigation",
+      "label": "Open the MP4",
+      "placement": "Videos"
+    },
+    "videos-water-recovered-during-extraction:play": {
+      "kind": "video_play",
+      "label": "Water recovered during extraction · play",
+      "placement": "Videos"
+    },
+    "videos-water-recovered-during-extraction:pause": {
+      "kind": "video_pause",
+      "label": "Water recovered during extraction · pause",
+      "placement": "Videos"
+    },
+    "videos-water-recovered-during-extraction:end": {
+      "kind": "video_end",
+      "label": "Water recovered during extraction · end",
+      "placement": "Videos"
+    },
+    "videos-water-recovered-during-extraction:seek": {
+      "kind": "video_seek",
+      "label": "Water recovered during extraction · seek",
+      "placement": "Videos"
+    },
+    "videos-open-the-mp4-2": {
+      "kind": "navigation",
+      "label": "Open the MP4",
+      "placement": "Videos"
+    },
+    "page-content-read-reviews-on-google": {
+      "kind": "navigation",
+      "label": "Read reviews on Google",
+      "placement": "Page content"
+    },
+    "bottom-contact-section-call-now": {
+      "kind": "call",
+      "label": "Call now",
+      "placement": "Bottom contact section"
+    },
+    "bottom-contact-section-message-on-whatsapp": {
+      "kind": "whatsapp",
+      "label": "Message on WhatsApp",
+      "placement": "Bottom contact section"
+    },
+    "footer-pureclean-carpet-care-home": {
+      "kind": "navigation",
+      "label": "PureClean Carpet Care home",
+      "placement": "Footer"
+    },
+    "footer-residential-carpets": {
+      "kind": "navigation",
+      "label": "Residential carpets",
+      "placement": "Footer"
+    },
+    "footer-sofas-upholstery": {
+      "kind": "navigation",
+      "label": "Sofas & upholstery",
+      "placement": "Footer"
+    },
+    "footer-area-rugs": {
+      "kind": "navigation",
+      "label": "Area rugs",
+      "placement": "Footer"
+    },
+    "footer-commercial-carpets": {
+      "kind": "navigation",
+      "label": "Commercial carpets",
+      "placement": "Footer"
+    },
+    "footer-about-us": {
+      "kind": "navigation",
+      "label": "About us",
+      "placement": "Footer"
+    },
+    "footer-our-work": {
+      "kind": "navigation",
+      "label": "Our work",
+      "placement": "Footer"
+    },
+    "footer-service-areas": {
+      "kind": "navigation",
+      "label": "Service areas",
+      "placement": "Footer"
+    },
+    "footer-care-guides": {
+      "kind": "navigation",
+      "label": "Care guides",
+      "placement": "Footer"
+    },
+    "footer-contact-us": {
+      "kind": "contact",
+      "label": "Contact us",
+      "placement": "Footer"
+    },
+    "footer-647-803-8776": {
+      "kind": "call",
+      "label": "(647) 803-8776",
+      "placement": "Footer"
+    },
+    "footer-purecleancarpetscare-gmail-com": {
+      "kind": "email",
+      "label": "purecleancarpetscare@gmail.com",
+      "placement": "Footer"
+    },
+    "footer-whatsapp": {
+      "kind": "whatsapp",
+      "label": "WhatsApp",
+      "placement": "Footer"
+    },
+    "footer-analytics-and-privacy": {
+      "kind": "navigation",
+      "label": "Analytics and privacy",
+      "placement": "Footer"
+    }
+  },
+  "/privacy/": {
+    "view": {
+      "kind": "view",
+      "label": "Page view",
+      "placement": "Page"
+    },
+    "header-pureclean-carpet-care-home": {
+      "kind": "navigation",
+      "label": "PureClean Carpet Care home",
+      "placement": "Header"
+    },
+    "page-content-return-to-pureclean": {
+      "kind": "navigation",
+      "label": "Return to PureClean",
+      "placement": "Page content"
+    }
+  },
+  "/service-areas/": {
+    "view": {
+      "kind": "view",
+      "label": "Page view",
+      "placement": "Page"
+    },
+    "page-content-skip-to-content": {
+      "kind": "navigation",
+      "label": "Skip to content",
+      "placement": "Page content"
+    },
+    "header-pureclean-carpet-care-home": {
+      "kind": "navigation",
+      "label": "PureClean Carpet Care home",
+      "placement": "Header"
+    },
+    "header-services": {
+      "kind": "navigation",
+      "label": "Services",
+      "placement": "Header"
+    },
+    "header-our-work": {
+      "kind": "navigation",
+      "label": "Our work",
+      "placement": "Header"
+    },
+    "header-about": {
+      "kind": "navigation",
+      "label": "About",
+      "placement": "Header"
+    },
+    "header-service-areas": {
+      "kind": "navigation",
+      "label": "Service areas",
+      "placement": "Header"
+    },
+    "header-contact": {
+      "kind": "contact",
+      "label": "Contact",
+      "placement": "Header"
+    },
+    "header-647-803-8776": {
+      "kind": "call",
+      "label": "(647) 803-8776",
+      "placement": "Header"
+    },
+    "header-call-now": {
+      "kind": "call",
+      "label": "Call now",
+      "placement": "Header"
+    },
+    "header-menu": {
+      "kind": "menu",
+      "label": "Menu ☰",
+      "placement": "Header"
+    },
+    "page-content-home": {
+      "kind": "navigation",
+      "label": "Home",
+      "placement": "Page content"
+    },
+    "bottom-contact-section-call-now": {
+      "kind": "call",
+      "label": "Call now",
+      "placement": "Bottom contact section"
+    },
+    "bottom-contact-section-message-on-whatsapp": {
+      "kind": "whatsapp",
+      "label": "Message on WhatsApp",
+      "placement": "Bottom contact section"
+    },
+    "footer-pureclean-carpet-care-home": {
+      "kind": "navigation",
+      "label": "PureClean Carpet Care home",
+      "placement": "Footer"
+    },
+    "footer-residential-carpets": {
+      "kind": "navigation",
+      "label": "Residential carpets",
+      "placement": "Footer"
+    },
+    "footer-sofas-upholstery": {
+      "kind": "navigation",
+      "label": "Sofas & upholstery",
+      "placement": "Footer"
+    },
+    "footer-area-rugs": {
+      "kind": "navigation",
+      "label": "Area rugs",
+      "placement": "Footer"
+    },
+    "footer-commercial-carpets": {
+      "kind": "navigation",
+      "label": "Commercial carpets",
+      "placement": "Footer"
+    },
+    "footer-about-us": {
+      "kind": "navigation",
+      "label": "About us",
+      "placement": "Footer"
+    },
+    "footer-our-work": {
+      "kind": "navigation",
+      "label": "Our work",
+      "placement": "Footer"
+    },
+    "footer-service-areas": {
+      "kind": "navigation",
+      "label": "Service areas",
+      "placement": "Footer"
+    },
+    "footer-care-guides": {
+      "kind": "navigation",
+      "label": "Care guides",
+      "placement": "Footer"
+    },
+    "footer-contact-us": {
+      "kind": "contact",
+      "label": "Contact us",
+      "placement": "Footer"
+    },
+    "footer-647-803-8776": {
+      "kind": "call",
+      "label": "(647) 803-8776",
+      "placement": "Footer"
+    },
+    "footer-purecleancarpetscare-gmail-com": {
+      "kind": "email",
+      "label": "purecleancarpetscare@gmail.com",
+      "placement": "Footer"
+    },
+    "footer-whatsapp": {
+      "kind": "whatsapp",
+      "label": "WhatsApp",
+      "placement": "Footer"
+    },
+    "footer-analytics-and-privacy": {
+      "kind": "navigation",
+      "label": "Analytics and privacy",
+      "placement": "Footer"
+    }
+  },
+  "/services/area-rug-cleaning/": {
+    "view": {
+      "kind": "view",
+      "label": "Page view",
+      "placement": "Page"
+    },
+    "page-content-skip-to-content": {
+      "kind": "navigation",
+      "label": "Skip to content",
+      "placement": "Page content"
+    },
+    "header-pureclean-carpet-care-home": {
+      "kind": "navigation",
+      "label": "PureClean Carpet Care home",
+      "placement": "Header"
+    },
+    "header-services": {
+      "kind": "navigation",
+      "label": "Services",
+      "placement": "Header"
+    },
+    "header-our-work": {
+      "kind": "navigation",
+      "label": "Our work",
+      "placement": "Header"
+    },
+    "header-about": {
+      "kind": "navigation",
+      "label": "About",
+      "placement": "Header"
+    },
+    "header-service-areas": {
+      "kind": "navigation",
+      "label": "Service areas",
+      "placement": "Header"
+    },
+    "header-contact": {
+      "kind": "contact",
+      "label": "Contact",
+      "placement": "Header"
+    },
+    "header-647-803-8776": {
+      "kind": "call",
+      "label": "(647) 803-8776",
+      "placement": "Header"
+    },
+    "header-call-now": {
+      "kind": "call",
+      "label": "Call now",
+      "placement": "Header"
+    },
+    "header-menu": {
+      "kind": "menu",
+      "label": "Menu ☰",
+      "placement": "Header"
+    },
+    "page-content-home": {
+      "kind": "navigation",
+      "label": "Home",
+      "placement": "Page content"
+    },
+    "page-content-services": {
+      "kind": "navigation",
+      "label": "Services",
+      "placement": "Page content"
+    },
+    "page-introduction-call-now": {
+      "kind": "call",
+      "label": "Call now",
+      "placement": "Page introduction"
+    },
+    "page-introduction-message-us": {
+      "kind": "contact",
+      "label": "Message us",
+      "placement": "Page introduction"
+    },
+    "on-this-page-cleaning-at-home": {
+      "kind": "navigation",
+      "label": "Cleaning at home",
+      "placement": "On this page"
+    },
+    "on-this-page-larger-and-delicate-pieces": {
+      "kind": "navigation",
+      "label": "Larger and delicate pieces",
+      "placement": "On this page"
+    },
+    "on-this-page-getting-an-estimate": {
+      "kind": "navigation",
+      "label": "Getting an estimate",
+      "placement": "On this page"
+    },
+    "page-content-is-pickup-required-for-every-rug": {
+      "kind": "faq",
+      "label": "Is pickup required for every rug?",
+      "placement": "Page content"
+    },
+    "page-content-see-all-cleaning-services": {
+      "kind": "navigation",
+      "label": "See all cleaning services",
+      "placement": "Page content"
+    },
+    "bottom-contact-section-call-now": {
+      "kind": "call",
+      "label": "Call now",
+      "placement": "Bottom contact section"
+    },
+    "bottom-contact-section-message-on-whatsapp": {
+      "kind": "whatsapp",
+      "label": "Message on WhatsApp",
+      "placement": "Bottom contact section"
+    },
+    "footer-pureclean-carpet-care-home": {
+      "kind": "navigation",
+      "label": "PureClean Carpet Care home",
+      "placement": "Footer"
+    },
+    "footer-residential-carpets": {
+      "kind": "navigation",
+      "label": "Residential carpets",
+      "placement": "Footer"
+    },
+    "footer-sofas-upholstery": {
+      "kind": "navigation",
+      "label": "Sofas & upholstery",
+      "placement": "Footer"
+    },
+    "footer-area-rugs": {
+      "kind": "navigation",
+      "label": "Area rugs",
+      "placement": "Footer"
+    },
+    "footer-commercial-carpets": {
+      "kind": "navigation",
+      "label": "Commercial carpets",
+      "placement": "Footer"
+    },
+    "footer-about-us": {
+      "kind": "navigation",
+      "label": "About us",
+      "placement": "Footer"
+    },
+    "footer-our-work": {
+      "kind": "navigation",
+      "label": "Our work",
+      "placement": "Footer"
+    },
+    "footer-service-areas": {
+      "kind": "navigation",
+      "label": "Service areas",
+      "placement": "Footer"
+    },
+    "footer-care-guides": {
+      "kind": "navigation",
+      "label": "Care guides",
+      "placement": "Footer"
+    },
+    "footer-contact-us": {
+      "kind": "contact",
+      "label": "Contact us",
+      "placement": "Footer"
+    },
+    "footer-647-803-8776": {
+      "kind": "call",
+      "label": "(647) 803-8776",
+      "placement": "Footer"
+    },
+    "footer-purecleancarpetscare-gmail-com": {
+      "kind": "email",
+      "label": "purecleancarpetscare@gmail.com",
+      "placement": "Footer"
+    },
+    "footer-whatsapp": {
+      "kind": "whatsapp",
+      "label": "WhatsApp",
+      "placement": "Footer"
+    },
+    "footer-analytics-and-privacy": {
+      "kind": "navigation",
+      "label": "Analytics and privacy",
+      "placement": "Footer"
+    },
+    "page-content-residential-carpet-cleaning": {
+      "kind": "navigation",
+      "label": "residential carpet cleaning",
+      "placement": "Page content"
+    },
+    "page-content-what-should-i-send-for-a-rug-cleaning-estimate": {
+      "kind": "faq",
+      "label": "What should I send for a rug cleaning estimate?",
+      "placement": "Page content"
+    },
+    "page-content-can-i-get-a-quote-for-a-wool-or-hand-knotted-rug": {
+      "kind": "faq",
+      "label": "Can I get a quote for a wool or hand-knotted rug?",
+      "placement": "Page content"
+    }
+  },
+  "/services/carpet-cleaning/": {
+    "view": {
+      "kind": "view",
+      "label": "Page view",
+      "placement": "Page"
+    },
+    "page-content-skip-to-content": {
+      "kind": "navigation",
+      "label": "Skip to content",
+      "placement": "Page content"
+    },
+    "header-pureclean-carpet-care-home": {
+      "kind": "navigation",
+      "label": "PureClean Carpet Care home",
+      "placement": "Header"
+    },
+    "header-services": {
+      "kind": "navigation",
+      "label": "Services",
+      "placement": "Header"
+    },
+    "header-our-work": {
+      "kind": "navigation",
+      "label": "Our work",
+      "placement": "Header"
+    },
+    "header-about": {
+      "kind": "navigation",
+      "label": "About",
+      "placement": "Header"
+    },
+    "header-service-areas": {
+      "kind": "navigation",
+      "label": "Service areas",
+      "placement": "Header"
+    },
+    "header-contact": {
+      "kind": "contact",
+      "label": "Contact",
+      "placement": "Header"
+    },
+    "header-647-803-8776": {
+      "kind": "call",
+      "label": "(647) 803-8776",
+      "placement": "Header"
+    },
+    "header-call-now": {
+      "kind": "call",
+      "label": "Call now",
+      "placement": "Header"
+    },
+    "header-menu": {
+      "kind": "menu",
+      "label": "Menu ☰",
+      "placement": "Header"
+    },
+    "page-content-home": {
+      "kind": "navigation",
+      "label": "Home",
+      "placement": "Page content"
+    },
+    "page-content-services": {
+      "kind": "navigation",
+      "label": "Services",
+      "placement": "Page content"
+    },
+    "page-introduction-call-now": {
+      "kind": "call",
+      "label": "Call now",
+      "placement": "Page introduction"
+    },
+    "page-introduction-message-us": {
+      "kind": "contact",
+      "label": "Message us",
+      "placement": "Page introduction"
+    },
+    "on-this-page-what-your-visit-includes": {
+      "kind": "navigation",
+      "label": "What your visit includes",
+      "placement": "On this page"
+    },
+    "on-this-page-getting-the-room-back-in-use": {
+      "kind": "navigation",
+      "label": "Getting the room back in use",
+      "placement": "On this page"
+    },
+    "on-this-page-if-an-odour-keeps-coming-back": {
+      "kind": "navigation",
+      "label": "If an odour keeps coming back",
+      "placement": "On this page"
+    },
+    "page-content-can-you-clean-carpet-in-a-condo": {
+      "kind": "faq",
+      "label": "Can you clean carpet in a condo?",
+      "placement": "Page content"
+    },
+    "page-content-see-all-cleaning-services": {
+      "kind": "navigation",
+      "label": "See all cleaning services",
+      "placement": "Page content"
+    },
+    "bottom-contact-section-call-now": {
+      "kind": "call",
+      "label": "Call now",
+      "placement": "Bottom contact section"
+    },
+    "bottom-contact-section-message-on-whatsapp": {
+      "kind": "whatsapp",
+      "label": "Message on WhatsApp",
+      "placement": "Bottom contact section"
+    },
+    "footer-pureclean-carpet-care-home": {
+      "kind": "navigation",
+      "label": "PureClean Carpet Care home",
+      "placement": "Footer"
+    },
+    "footer-residential-carpets": {
+      "kind": "navigation",
+      "label": "Residential carpets",
+      "placement": "Footer"
+    },
+    "footer-sofas-upholstery": {
+      "kind": "navigation",
+      "label": "Sofas & upholstery",
+      "placement": "Footer"
+    },
+    "footer-area-rugs": {
+      "kind": "navigation",
+      "label": "Area rugs",
+      "placement": "Footer"
+    },
+    "footer-commercial-carpets": {
+      "kind": "navigation",
+      "label": "Commercial carpets",
+      "placement": "Footer"
+    },
+    "footer-about-us": {
+      "kind": "navigation",
+      "label": "About us",
+      "placement": "Footer"
+    },
+    "footer-our-work": {
+      "kind": "navigation",
+      "label": "Our work",
+      "placement": "Footer"
+    },
+    "footer-service-areas": {
+      "kind": "navigation",
+      "label": "Service areas",
+      "placement": "Footer"
+    },
+    "footer-care-guides": {
+      "kind": "navigation",
+      "label": "Care guides",
+      "placement": "Footer"
+    },
+    "footer-contact-us": {
+      "kind": "contact",
+      "label": "Contact us",
+      "placement": "Footer"
+    },
+    "footer-647-803-8776": {
+      "kind": "call",
+      "label": "(647) 803-8776",
+      "placement": "Footer"
+    },
+    "footer-purecleancarpetscare-gmail-com": {
+      "kind": "email",
+      "label": "purecleancarpetscare@gmail.com",
+      "placement": "Footer"
+    },
+    "footer-whatsapp": {
+      "kind": "whatsapp",
+      "label": "WhatsApp",
+      "placement": "Footer"
+    },
+    "footer-analytics-and-privacy": {
+      "kind": "navigation",
+      "label": "Analytics and privacy",
+      "placement": "Footer"
+    },
+    "page-content-diy-versus-professional-carpet-cleaning-guide": {
+      "kind": "navigation",
+      "label": "DIY versus professional carpet cleaning guide",
+      "placement": "Page content"
+    },
+    "page-content-how-can-i-prepare-for-the-visit": {
+      "kind": "faq",
+      "label": "How can I prepare for the visit?",
+      "placement": "Page content"
+    },
+    "page-content-what-affects-a-carpet-cleaning-quote": {
+      "kind": "faq",
+      "label": "What affects a carpet cleaning quote?",
+      "placement": "Page content"
+    }
+  },
+  "/services/commercial-carpet-cleaning/": {
+    "view": {
+      "kind": "view",
+      "label": "Page view",
+      "placement": "Page"
+    },
+    "page-content-skip-to-content": {
+      "kind": "navigation",
+      "label": "Skip to content",
+      "placement": "Page content"
+    },
+    "header-pureclean-carpet-care-home": {
+      "kind": "navigation",
+      "label": "PureClean Carpet Care home",
+      "placement": "Header"
+    },
+    "header-services": {
+      "kind": "navigation",
+      "label": "Services",
+      "placement": "Header"
+    },
+    "header-our-work": {
+      "kind": "navigation",
+      "label": "Our work",
+      "placement": "Header"
+    },
+    "header-about": {
+      "kind": "navigation",
+      "label": "About",
+      "placement": "Header"
+    },
+    "header-service-areas": {
+      "kind": "navigation",
+      "label": "Service areas",
+      "placement": "Header"
+    },
+    "header-contact": {
+      "kind": "contact",
+      "label": "Contact",
+      "placement": "Header"
+    },
+    "header-647-803-8776": {
+      "kind": "call",
+      "label": "(647) 803-8776",
+      "placement": "Header"
+    },
+    "header-call-now": {
+      "kind": "call",
+      "label": "Call now",
+      "placement": "Header"
+    },
+    "header-menu": {
+      "kind": "menu",
+      "label": "Menu ☰",
+      "placement": "Header"
+    },
+    "page-content-home": {
+      "kind": "navigation",
+      "label": "Home",
+      "placement": "Page content"
+    },
+    "page-content-services": {
+      "kind": "navigation",
+      "label": "Services",
+      "placement": "Page content"
+    },
+    "page-introduction-call-now": {
+      "kind": "call",
+      "label": "Call now",
+      "placement": "Page introduction"
+    },
+    "page-introduction-message-us": {
+      "kind": "contact",
+      "label": "Message us",
+      "placement": "Page introduction"
+    },
+    "on-this-page-offices-stores-and-shared-buildings": {
+      "kind": "navigation",
+      "label": "Offices, stores and shared buildings",
+      "placement": "On this page"
+    },
+    "on-this-page-plan-around-opening-hours": {
+      "kind": "navigation",
+      "label": "Plan around opening hours",
+      "placement": "On this page"
+    },
+    "on-this-page-extraction-and-follow-up": {
+      "kind": "navigation",
+      "label": "Extraction and follow-up",
+      "placement": "On this page"
+    },
+    "page-content-can-property-managers-request-a-quote": {
+      "kind": "faq",
+      "label": "Can property managers request a quote?",
+      "placement": "Page content"
+    },
+    "page-content-see-all-cleaning-services": {
+      "kind": "navigation",
+      "label": "See all cleaning services",
+      "placement": "Page content"
+    },
+    "bottom-contact-section-call-now": {
+      "kind": "call",
+      "label": "Call now",
+      "placement": "Bottom contact section"
+    },
+    "bottom-contact-section-message-on-whatsapp": {
+      "kind": "whatsapp",
+      "label": "Message on WhatsApp",
+      "placement": "Bottom contact section"
+    },
+    "footer-pureclean-carpet-care-home": {
+      "kind": "navigation",
+      "label": "PureClean Carpet Care home",
+      "placement": "Footer"
+    },
+    "footer-residential-carpets": {
+      "kind": "navigation",
+      "label": "Residential carpets",
+      "placement": "Footer"
+    },
+    "footer-sofas-upholstery": {
+      "kind": "navigation",
+      "label": "Sofas & upholstery",
+      "placement": "Footer"
+    },
+    "footer-area-rugs": {
+      "kind": "navigation",
+      "label": "Area rugs",
+      "placement": "Footer"
+    },
+    "footer-commercial-carpets": {
+      "kind": "navigation",
+      "label": "Commercial carpets",
+      "placement": "Footer"
+    },
+    "footer-about-us": {
+      "kind": "navigation",
+      "label": "About us",
+      "placement": "Footer"
+    },
+    "footer-our-work": {
+      "kind": "navigation",
+      "label": "Our work",
+      "placement": "Footer"
+    },
+    "footer-service-areas": {
+      "kind": "navigation",
+      "label": "Service areas",
+      "placement": "Footer"
+    },
+    "footer-care-guides": {
+      "kind": "navigation",
+      "label": "Care guides",
+      "placement": "Footer"
+    },
+    "footer-contact-us": {
+      "kind": "contact",
+      "label": "Contact us",
+      "placement": "Footer"
+    },
+    "footer-647-803-8776": {
+      "kind": "call",
+      "label": "(647) 803-8776",
+      "placement": "Footer"
+    },
+    "footer-purecleancarpetscare-gmail-com": {
+      "kind": "email",
+      "label": "purecleancarpetscare@gmail.com",
+      "placement": "Footer"
+    },
+    "footer-whatsapp": {
+      "kind": "whatsapp",
+      "label": "WhatsApp",
+      "placement": "Footer"
+    },
+    "footer-analytics-and-privacy": {
+      "kind": "navigation",
+      "label": "Analytics and privacy",
+      "placement": "Footer"
+    },
+    "page-content-office-carpet-and-extraction-projects": {
+      "kind": "navigation",
+      "label": "office carpet and extraction projects",
+      "placement": "Page content"
+    },
+    "page-content-can-you-clean-after-the-office-closes": {
+      "kind": "faq",
+      "label": "Can you clean after the office closes?",
+      "placement": "Page content"
+    },
+    "page-content-what-should-i-include-with-a-commercial-quote-request": {
+      "kind": "faq",
+      "label": "What should I include with a commercial quote request?",
+      "placement": "Page content"
+    }
+  },
+  "/services/": {
+    "view": {
+      "kind": "view",
+      "label": "Page view",
+      "placement": "Page"
+    },
+    "page-content-skip-to-content": {
+      "kind": "navigation",
+      "label": "Skip to content",
+      "placement": "Page content"
+    },
+    "header-pureclean-carpet-care-home": {
+      "kind": "navigation",
+      "label": "PureClean Carpet Care home",
+      "placement": "Header"
+    },
+    "header-services": {
+      "kind": "navigation",
+      "label": "Services",
+      "placement": "Header"
+    },
+    "header-our-work": {
+      "kind": "navigation",
+      "label": "Our work",
+      "placement": "Header"
+    },
+    "header-about": {
+      "kind": "navigation",
+      "label": "About",
+      "placement": "Header"
+    },
+    "header-service-areas": {
+      "kind": "navigation",
+      "label": "Service areas",
+      "placement": "Header"
+    },
+    "header-contact": {
+      "kind": "contact",
+      "label": "Contact",
+      "placement": "Header"
+    },
+    "header-647-803-8776": {
+      "kind": "call",
+      "label": "(647) 803-8776",
+      "placement": "Header"
+    },
+    "header-call-now": {
+      "kind": "call",
+      "label": "Call now",
+      "placement": "Header"
+    },
+    "header-menu": {
+      "kind": "menu",
+      "label": "Menu ☰",
+      "placement": "Header"
+    },
+    "page-content-home": {
+      "kind": "navigation",
+      "label": "Home",
+      "placement": "Page content"
+    },
+    "services-grid-residential-carpets-rooms-stairs-and-high-traffic-areas": {
+      "kind": "navigation",
+      "label": "Residential carpets Rooms, stairs and high-traffic areas.",
+      "placement": "Services grid"
+    },
+    "services-grid-sofas-upholstery-fabric-care-for-sofas-sectionals-and-chairs": {
+      "kind": "navigation",
+      "label": "Sofas & upholstery Fabric care for sofas, sectionals and chairs.",
+      "placement": "Services grid"
+    },
+    "services-grid-area-rugs-in-home-cleaning-and-pickup-for-delicate-rugs": {
+      "kind": "navigation",
+      "label": "Area rugs In-home cleaning and pickup for delicate rugs.",
+      "placement": "Services grid"
+    },
+    "services-grid-commercial-carpets-offices-retail-floors-and-shared-spaces": {
+      "kind": "navigation",
+      "label": "Commercial carpets Offices, retail floors and shared spaces.",
+      "placement": "Services grid"
+    },
+    "bottom-contact-section-call-now": {
+      "kind": "call",
+      "label": "Call now",
+      "placement": "Bottom contact section"
+    },
+    "bottom-contact-section-message-on-whatsapp": {
+      "kind": "whatsapp",
+      "label": "Message on WhatsApp",
+      "placement": "Bottom contact section"
+    },
+    "footer-pureclean-carpet-care-home": {
+      "kind": "navigation",
+      "label": "PureClean Carpet Care home",
+      "placement": "Footer"
+    },
+    "footer-residential-carpets": {
+      "kind": "navigation",
+      "label": "Residential carpets",
+      "placement": "Footer"
+    },
+    "footer-sofas-upholstery": {
+      "kind": "navigation",
+      "label": "Sofas & upholstery",
+      "placement": "Footer"
+    },
+    "footer-area-rugs": {
+      "kind": "navigation",
+      "label": "Area rugs",
+      "placement": "Footer"
+    },
+    "footer-commercial-carpets": {
+      "kind": "navigation",
+      "label": "Commercial carpets",
+      "placement": "Footer"
+    },
+    "footer-about-us": {
+      "kind": "navigation",
+      "label": "About us",
+      "placement": "Footer"
+    },
+    "footer-our-work": {
+      "kind": "navigation",
+      "label": "Our work",
+      "placement": "Footer"
+    },
+    "footer-service-areas": {
+      "kind": "navigation",
+      "label": "Service areas",
+      "placement": "Footer"
+    },
+    "footer-care-guides": {
+      "kind": "navigation",
+      "label": "Care guides",
+      "placement": "Footer"
+    },
+    "footer-contact-us": {
+      "kind": "contact",
+      "label": "Contact us",
+      "placement": "Footer"
+    },
+    "footer-647-803-8776": {
+      "kind": "call",
+      "label": "(647) 803-8776",
+      "placement": "Footer"
+    },
+    "footer-purecleancarpetscare-gmail-com": {
+      "kind": "email",
+      "label": "purecleancarpetscare@gmail.com",
+      "placement": "Footer"
+    },
+    "footer-whatsapp": {
+      "kind": "whatsapp",
+      "label": "WhatsApp",
+      "placement": "Footer"
+    },
+    "footer-analytics-and-privacy": {
+      "kind": "navigation",
+      "label": "Analytics and privacy",
+      "placement": "Footer"
+    }
+  },
+  "/services/upholstery-cleaning/": {
+    "view": {
+      "kind": "view",
+      "label": "Page view",
+      "placement": "Page"
+    },
+    "page-content-skip-to-content": {
+      "kind": "navigation",
+      "label": "Skip to content",
+      "placement": "Page content"
+    },
+    "header-pureclean-carpet-care-home": {
+      "kind": "navigation",
+      "label": "PureClean Carpet Care home",
+      "placement": "Header"
+    },
+    "header-services": {
+      "kind": "navigation",
+      "label": "Services",
+      "placement": "Header"
+    },
+    "header-our-work": {
+      "kind": "navigation",
+      "label": "Our work",
+      "placement": "Header"
+    },
+    "header-about": {
+      "kind": "navigation",
+      "label": "About",
+      "placement": "Header"
+    },
+    "header-service-areas": {
+      "kind": "navigation",
+      "label": "Service areas",
+      "placement": "Header"
+    },
+    "header-contact": {
+      "kind": "contact",
+      "label": "Contact",
+      "placement": "Header"
+    },
+    "header-647-803-8776": {
+      "kind": "call",
+      "label": "(647) 803-8776",
+      "placement": "Header"
+    },
+    "header-call-now": {
+      "kind": "call",
+      "label": "Call now",
+      "placement": "Header"
+    },
+    "header-menu": {
+      "kind": "menu",
+      "label": "Menu ☰",
+      "placement": "Header"
+    },
+    "page-content-home": {
+      "kind": "navigation",
+      "label": "Home",
+      "placement": "Page content"
+    },
+    "page-content-services": {
+      "kind": "navigation",
+      "label": "Services",
+      "placement": "Page content"
+    },
+    "page-introduction-call-now": {
+      "kind": "call",
+      "label": "Call now",
+      "placement": "Page introduction"
+    },
+    "page-introduction-message-us": {
+      "kind": "contact",
+      "label": "Message us",
+      "placement": "Page introduction"
+    },
+    "on-this-page-what-we-clean": {
+      "kind": "navigation",
+      "label": "What we clean",
+      "placement": "On this page"
+    },
+    "on-this-page-treatment-for-the-fabric": {
+      "kind": "navigation",
+      "label": "Treatment for the fabric",
+      "placement": "On this page"
+    },
+    "on-this-page-optional-fabric-protection": {
+      "kind": "navigation",
+      "label": "Optional fabric protection",
+      "placement": "On this page"
+    },
+    "page-content-can-i-combine-upholstery-and-carpet-cleaning": {
+      "kind": "faq",
+      "label": "Can I combine upholstery and carpet cleaning?",
+      "placement": "Page content"
+    },
+    "page-content-see-all-cleaning-services": {
+      "kind": "navigation",
+      "label": "See all cleaning services",
+      "placement": "Page content"
+    },
+    "bottom-contact-section-call-now": {
+      "kind": "call",
+      "label": "Call now",
+      "placement": "Bottom contact section"
+    },
+    "bottom-contact-section-message-on-whatsapp": {
+      "kind": "whatsapp",
+      "label": "Message on WhatsApp",
+      "placement": "Bottom contact section"
+    },
+    "footer-pureclean-carpet-care-home": {
+      "kind": "navigation",
+      "label": "PureClean Carpet Care home",
+      "placement": "Footer"
+    },
+    "footer-residential-carpets": {
+      "kind": "navigation",
+      "label": "Residential carpets",
+      "placement": "Footer"
+    },
+    "footer-sofas-upholstery": {
+      "kind": "navigation",
+      "label": "Sofas & upholstery",
+      "placement": "Footer"
+    },
+    "footer-area-rugs": {
+      "kind": "navigation",
+      "label": "Area rugs",
+      "placement": "Footer"
+    },
+    "footer-commercial-carpets": {
+      "kind": "navigation",
+      "label": "Commercial carpets",
+      "placement": "Footer"
+    },
+    "footer-about-us": {
+      "kind": "navigation",
+      "label": "About us",
+      "placement": "Footer"
+    },
+    "footer-our-work": {
+      "kind": "navigation",
+      "label": "Our work",
+      "placement": "Footer"
+    },
+    "footer-service-areas": {
+      "kind": "navigation",
+      "label": "Service areas",
+      "placement": "Footer"
+    },
+    "footer-care-guides": {
+      "kind": "navigation",
+      "label": "Care guides",
+      "placement": "Footer"
+    },
+    "footer-contact-us": {
+      "kind": "contact",
+      "label": "Contact us",
+      "placement": "Footer"
+    },
+    "footer-647-803-8776": {
+      "kind": "call",
+      "label": "(647) 803-8776",
+      "placement": "Footer"
+    },
+    "footer-purecleancarpetscare-gmail-com": {
+      "kind": "email",
+      "label": "purecleancarpetscare@gmail.com",
+      "placement": "Footer"
+    },
+    "footer-whatsapp": {
+      "kind": "whatsapp",
+      "label": "WhatsApp",
+      "placement": "Footer"
+    },
+    "footer-analytics-and-privacy": {
+      "kind": "navigation",
+      "label": "Analytics and privacy",
+      "placement": "Footer"
+    },
+    "page-content-carpet-cleaning": {
+      "kind": "navigation",
+      "label": "carpet cleaning",
+      "placement": "Page content"
+    },
+    "page-content-area-rug-cleaning": {
+      "kind": "navigation",
+      "label": "area rug cleaning",
+      "placement": "Page content"
+    },
+    "page-content-can-you-clean-sectional-sofas-and-dining-chairs": {
+      "kind": "faq",
+      "label": "Can you clean sectional sofas and dining chairs?",
+      "placement": "Page content"
+    },
+    "page-content-do-you-need-to-know-which-spot-cleaner-i-used": {
+      "kind": "faq",
+      "label": "Do you need to know which spot cleaner I used?",
+      "placement": "Page content"
+    }
+  }
+}
