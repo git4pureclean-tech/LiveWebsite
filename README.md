@@ -19,7 +19,7 @@ GitHub Pages serves the website. The event API and password-protected activity r
 
 1. Run `node analytics/build.mjs` to create `dist/server/index.js`. Use that module as the Worker entry point. Apply `drizzle/0000_interaction_counts.sql` to a D1 database and bind it as `DB`.
 2. Set `ANALYTICS_REPORT_PASSWORD` as a Worker secret. Configure the Worker to receive `/api/analytics` and `/analytics*` on the same production HTTPS origin as the site. The API checks the request origin. A separate Worker hostname requires an explicit cross-origin integration.
-3. Visit `/analytics/` and sign in as `pureclean` using the Worker secret. Confirm that a page view and a test interaction appear, then verify the privacy-page opt-out. Add the analytics routes through whichever edge setup you use for the custom domain.
+3. Open the site in a fresh browser session. Confirm that no requests go to `/api/analytics` before consent or after declining. Accept analytics, interact with an instrumented control, and verify the counts in `/analytics/` by signing in as `pureclean` with the Worker secret. Turn analytics off from the privacy page and confirm that requests stop.
 
 ## Search launch checklist
 

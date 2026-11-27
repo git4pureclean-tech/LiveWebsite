@@ -2,38 +2,84 @@
   const page = document.body.dataset.analyticsPage;
   if (!page || !/^https?:$/.test(location.protocol) || window.top !== window) return;
 
-  const preferenceKey = "pureclean.analytics.optout";
+  const preferenceKey = "pureclean.analytics.consent";
+  const legacyOptOutKey = "pureclean.analytics.optout";
   const protectedByGpc = navigator.globalPrivacyControl === true;
-  let optedOut = false;
-  try {
-    optedOut = localStorage.getItem(preferenceKey) === "1";
-  } catch {
-    // Some browsers block storage.
-  }
-
-  const preference = document.querySelector("#analytics-optout");
-  if (preference) {
-    const feedback = document.querySelector("#analytics-preference");
-    preference.checked = optedOut || protectedByGpc;
-    preference.disabled = protectedByGpc;
-    if (protectedByGpc) feedback.textContent = "Global Privacy Control is active.";
-    preference.addEventListener("change", () => {
-      optedOut = preference.checked;
-      try {
-        if (optedOut) localStorage.setItem(preferenceKey, "1");
-        else localStorage.removeItem(preferenceKey);
-        feedback.textContent = optedOut
-          ? "Analytics is off for this browser."
-          : "Analytics is on for this browser.";
-      } catch {
-        feedback.textContent = "This browser can only apply your preference on this page.";
-      }
-    });
-  }
-
   const screenCategory = matchMedia("(max-width: 680px)").matches ? "mobile" : "wide";
+  let consent = readConsent();
+  let countedView = false;
+
+  function readConsent() {
+    try {
+      const saved = localStorage.getItem(preferenceKey);
+      if (saved === "accepted" || saved === "declined") return saved;
+      if (localStorage.getItem(legacyOptOutKey) === "1") return "declined";
+    } catch {
+      // Analytics stays off until the visitor accepts.
+    }
+    return null;
+  }
+
+  const preference = document.querySelector("#analytics-consent");
+  const feedback = document.querySelector("#analytics-preference");
+  let banner;
+  if (preference) {
+    preference.disabled = protectedByGpc;
+    preference.addEventListener("change", () => {
+      saveConsent(preference.checked ? "accepted" : "declined");
+    });
+  } else if (!protectedByGpc) {
+    banner = document.createElement("aside");
+    banner.className = "analytics-banner";
+    banner.hidden = true;
+    banner.setAttribute("aria-labelledby", "analytics-banner-title");
+    banner.innerHTML = `
+      <h2 id="analytics-banner-title">Cookie preferences</h2>
+      <p>Allow optional analytics to help us understand how people use our site. We count page views and actions like phone taps, WhatsApp taps, and video plays.</p>
+      <div class="analytics-banner-actions">
+        <button type="button" data-choice="declined">Decline</button>
+        <button type="button" data-choice="accepted">Accept analytics</button>
+      </div>
+      <a>Analytics and privacy</a>
+    `;
+    banner.querySelector("a").href = new URL("../privacy/", document.currentScript.src).href;
+    for (const button of banner.querySelectorAll("button")) {
+      button.addEventListener("click", () => saveConsent(button.dataset.choice));
+    }
+    const skipLink = document.querySelector(".skip");
+    if (skipLink) skipLink.after(banner);
+    else document.body.prepend(banner);
+  }
+
+  function saveConsent(choice) {
+    if (protectedByGpc) return;
+    consent = choice;
+    let saved = true;
+    try {
+      localStorage.setItem(preferenceKey, choice);
+    } catch {
+      saved = false;
+    }
+    applyConsent(saved);
+  }
+
+  function applyConsent(saved = true) {
+    const enabled = consent === "accepted" && !protectedByGpc;
+    if (banner) banner.hidden = consent !== null;
+    if (preference) {
+      preference.checked = enabled;
+      if (protectedByGpc) feedback.textContent = "Analytics is off because your browser sends Global Privacy Control.";
+      else if (!saved) feedback.textContent = "Your choice applies to this page only.";
+      else feedback.textContent = enabled ? "Analytics is on for this browser." : "Analytics is off for this browser.";
+    }
+    if (enabled && !countedView) {
+      countedView = true;
+      count("view");
+    }
+  }
+
   function count(control) {
-    if (protectedByGpc || optedOut) return;
+    if (protectedByGpc || consent !== "accepted") return;
     const payload = JSON.stringify({ page, control, screen: screenCategory });
     if (navigator.sendBeacon?.("/api/analytics", new Blob([payload], { type: "application/json" }))) return;
     fetch("/api/analytics", {
@@ -45,7 +91,17 @@
     }).catch(() => {});
   }
 
-  count("view");
+  function refreshConsent() {
+    consent = readConsent();
+    applyConsent();
+  }
+  window.addEventListener("storage", (event) => {
+    if (event.key === preferenceKey || event.key === null) refreshConsent();
+  });
+  window.addEventListener("pageshow", (event) => {
+    if (event.persisted) refreshConsent();
+  });
+  applyConsent();
   const trackLinkOrButton = (event) => {
     const target = event.target.closest?.("a[data-analytics],button[data-analytics],summary[data-analytics]");
     if (target) count(target.dataset.analytics);

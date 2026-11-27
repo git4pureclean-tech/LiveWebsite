@@ -11,9 +11,9 @@
     <meta name="robots" content="noindex, follow" />
     <link rel="canonical" href="https://purecleancarpet.ca/privacy/" />
     <link rel="icon" href="../assets/pureclean-favicon.png" type="image/png" />
-    <link rel="stylesheet" href="../assets/style.css" />
+    <link rel="stylesheet" href="../assets/style.css?v=opt-in" />
     <script defer src="../assets/site.js"></script>
-    <script defer src="../assets/analytics.js"></script>
+    <script defer src="../assets/analytics.js?v=opt-in"></script>
   </head>
   <body data-analytics-page="/privacy/">
     <header class="mast">
@@ -32,21 +32,21 @@
       <h1 class="page-title">Website analytics and privacy</h1>
       <div class="article-section">
         <p>
-          PureClean counts website page views and interactions such as phone link taps, WhatsApp opens and
-          video plays. Each count includes the page, control, date and screen size category. The report uses
-          aggregate counts and does not store a visitor identifier, IP address, contact details or anything
-          entered in the contact form.
+          If you allow analytics, PureClean counts website page views and interactions such as phone link
+          taps, WhatsApp taps and video plays. Each count includes the page, control, date and screen size
+          category. The report uses aggregate counts and does not store a visitor identifier, IP address,
+          contact details or anything entered in the contact form.
         </p>
         <p>
           Contact details entered in the form go into the message you review in WhatsApp. You decide whether
           to send it there.
         </p>
         <p>
-          Your browser’s Global Privacy Control signal turns off these counts. You can also opt out on this
-          device.
+          Analytics is off until you accept it. We store your choice in this browser so you can change it
+          at any time here. If your browser sends Global Privacy Control, analytics stays off.
         </p>
         <p>
-          <label><input type="checkbox" id="analytics-optout" /> Turn off analytics on this browser</label>
+          <label><input type="checkbox" id="analytics-consent" disabled /> Allow optional analytics on this browser</label>
         </p>
         <p id="analytics-preference" aria-live="polite"></p>
         <a class="back-link" href="../" data-analytics="page-content-return-to-pureclean"
