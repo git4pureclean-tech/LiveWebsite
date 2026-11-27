@@ -197,8 +197,8 @@ summary:focus-visible {
   inset: auto 0 0 auto;
   position: absolute;
   z-index: -2;
-  width: 90%;
-  height: 90%;
+  width: 72%;
+  height: 72%;
   object-fit: cover;
   object-position: 65% 55%;
   mask-image:
@@ -1446,10 +1446,12 @@ details p {
 }
 @media (max-width: 680px) {
   .hero-photo {
-    width: 100%;
-    height: 49%;
+    width: min(100%, max(500px, 80%));
+    height: 39.2%;
     object-position: 78% 58%;
-    mask-image: linear-gradient(to bottom, transparent, #000 17%);
+    mask-image:
+      linear-gradient(to right, transparent, #000 12%),
+      linear-gradient(to bottom, transparent, #000 17%);
   }
   .hero:after {
     background: linear-gradient(
