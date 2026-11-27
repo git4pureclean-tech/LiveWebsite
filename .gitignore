@@ -2,3 +2,5 @@
 .env
 .dev.vars
 .wrangler/
+
+/analytics/wrangler.toml

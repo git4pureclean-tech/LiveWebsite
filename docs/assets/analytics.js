@@ -31,10 +31,26 @@
     });
   }
 
+  const isGitHubPages = location.origin === "https://git4pureclean-tech.github.io";
+  // Set this to the client-owned Worker's /api/analytics URL after deployment.
+  const githubPagesCollector = "";
   const screenCategory = matchMedia("(max-width: 680px)").matches ? "mobile" : "wide";
   function count(control) {
     if (protectedByGpc || optedOut) return;
     const payload = JSON.stringify({ page, control, screen: screenCategory });
+    if (isGitHubPages) {
+      if (!githubPagesCollector) return;
+      // A text body keeps the cross-origin request simple and avoids a preflight on exit clicks.
+      fetch(githubPagesCollector, {
+        method: "POST",
+        mode: "no-cors",
+        credentials: "omit",
+        referrerPolicy: "no-referrer",
+        keepalive: true,
+        body: payload,
+      }).catch(() => {});
+      return;
+    }
     if (navigator.sendBeacon?.("/api/analytics", new Blob([payload], { type: "application/json" }))) return;
     fetch("/api/analytics", {
       method: "POST",

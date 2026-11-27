@@ -65,9 +65,12 @@ const html = {
 
 async function countInteraction(request, env, url) {
   if (request.method !== "POST") return reply("Method not allowed", 405, { Allow: "POST" });
-  if (request.headers.get("Origin") !== url.origin) return reply("Forbidden", 403);
+  const origin = request.headers.get("Origin");
+  const fromGitHubPages = origin === "https://git4pureclean-tech.github.io";
+  if (origin !== url.origin && !fromGitHubPages) return reply("Forbidden", 403);
   if (request.headers.get("Sec-GPC") === "1") return reply(null, 204);
-  if (request.headers.get("Content-Type")?.split(";")[0].trim() !== "application/json")
+  const contentType = request.headers.get("Content-Type")?.split(";")[0].trim();
+  if (contentType !== "application/json" && !(fromGitHubPages && contentType === "text/plain"))
     return reply("Unsupported media type", 415);
 
   const stream = request.body?.getReader();
@@ -104,13 +107,14 @@ async function countInteraction(request, env, url) {
     return reply("Unknown event", 400);
   }
   const record = controls[page][control];
+  const reportPage = fromGitHubPages ? `/LiveWebsite${page}` : page;
   const now = new Date().toISOString();
   await env.DB.prepare(
     `INSERT INTO interaction_counts (day, page, control, screen, kind, label, placement, total, last_at)
      VALUES (?, ?, ?, ?, ?, ?, ?, 1, ?)
      ON CONFLICT(day, page, control, screen) DO UPDATE SET total = total + 1, last_at = excluded.last_at`,
   )
-    .bind(now.slice(0, 10), page, control, screen, record.kind, record.label, record.placement, now)
+    .bind(now.slice(0, 10), reportPage, control, screen, record.kind, record.label, record.placement, now)
     .run();
   return reply(null, 204);
 }
@@ -126,7 +130,7 @@ async function sameSecret(provided, expected) {
 }
 
 async function canOpenReport(request, env, isSites) {
-  if (isSites) {
+  if (isSites && !env.ANALYTICS_REPORT_PASSWORD) {
     const email = request.headers.get("oai-authenticated-user-email")?.toLowerCase();
     return Boolean(
       email &&
@@ -154,15 +158,15 @@ async function report(request, env, url) {
     const signIn =
       '<a class="sign-in" href="/signin-with-chatgpt?return_to=%2Fanalytics%2F" target="_top">Sign in with ChatGPT</a>';
     const content =
-      isSites && !signedIn
+      isSites && !env.ANALYTICS_REPORT_PASSWORD && !signedIn
         ? `<p>Sign in with the site owner’s ChatGPT account to view the report.</p>${signIn}`
         : "<p>This report is available to the site owner.</p>";
     return reply(
       document("Website activity", `<h1>Website activity</h1>${content}`),
-      isSites && signedIn ? 403 : 401,
+      isSites && !env.ANALYTICS_REPORT_PASSWORD && signedIn ? 403 : 401,
       {
         ...html,
-        ...(!isSites && env.ANALYTICS_REPORT_PASSWORD
+        ...(env.ANALYTICS_REPORT_PASSWORD
           ? { "WWW-Authenticate": 'Basic realm="PureClean analytics", charset="UTF-8"' }
           : {}),
       },
@@ -259,7 +263,9 @@ export default {
     try {
       if (url.pathname === "/api/analytics") return await countInteraction(request, env, url);
       if (["/analytics", "/analytics/"].includes(url.pathname)) return await report(request, env, url);
-      return env.ASSETS.fetch(request);
+      if (env.ASSETS) return env.ASSETS.fetch(request);
+      if (url.pathname === "/") return reply(null, 302, { Location: "/analytics/" });
+      return reply("Not found", 404);
     } catch (error) {
       console.error("PureClean analytics failed", error?.message);
       return reply("Temporarily unavailable", 503);

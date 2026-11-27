@@ -13,13 +13,22 @@
 | `/about/` | `/about-us/` |
 | `/blog/diy-vs-professional-carpet-cleaning/` | `/guides/diy-or-professional-carpet-cleaning/` |
 
-## Run analytics
+## Deploy the client analytics dashboard
 
-GitHub Pages serves the website. The event API and password-protected activity report require the Cloudflare Worker in `analytics/` and a D1 database.
+The dashboard and event collector run as a standalone Cloudflare Worker with a D1 database in the client’s account. The marketing site stays on GitHub Pages. The dashboard uses a separate password and the username `pureclean`.
 
-1. Run `node analytics/build.mjs` to create `dist/server/index.js`. Use that module as the Worker entry point. Apply `drizzle/0000_interaction_counts.sql` to a D1 database and bind it as `DB`.
-2. Set `ANALYTICS_REPORT_PASSWORD` as a Worker secret. Configure the Worker to receive `/api/analytics` and `/analytics*` on the same production HTTPS origin as the site. The API checks the request origin. A separate Worker hostname requires an explicit cross-origin integration.
-3. Visit `/analytics/` and sign in as `pureclean` using the Worker secret. Confirm that a page view and a test interaction appear, then verify the privacy-page opt-out. Add the analytics routes through whichever edge setup you use for the custom domain.
+1. In the client’s Cloudflare account, select Workers Free and create a D1 database named `pureclean-analytics`. Copy `analytics/wrangler.example.toml` to `analytics/wrangler.toml` and set `database_id` to the ID assigned by Cloudflare.
+2. From the repository root, run the build, apply the database schema, set the dashboard password when prompted, and deploy.
+
+   ```sh
+   node analytics/build.mjs
+   npx wrangler d1 migrations apply DB --remote --config analytics/wrangler.toml
+   npx wrangler secret put ANALYTICS_REPORT_PASSWORD --config analytics/wrangler.toml
+   npx wrangler deploy --config analytics/wrangler.toml
+   ```
+
+3. Open the Worker’s `/analytics/` URL and verify the password works. In `docs/assets/analytics.js`, set `githubPagesCollector` to the Worker’s HTTPS `/api/analytics` URL and publish the updated website. Verify that a test visit appears on the report as a row starting with `/LiveWebsite/`.
+4. Share the dashboard URL and password with the client separately. Keep the password in the client’s password manager and out of the repository.
 
 ## Search launch checklist
 
