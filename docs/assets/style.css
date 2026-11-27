@@ -194,13 +194,15 @@ summary:focus-visible {
   overflow: hidden;
 }
 .hero-photo {
-  inset: 0;
   position: absolute;
+  right: 0;
+  bottom: 0;
   z-index: -2;
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-  object-position: right bottom;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  mask-image: linear-gradient(to right, transparent, #000 min(200px, 18%));
 }
 .hero:after {
   content: "";
@@ -1442,7 +1444,9 @@ details p {
     grid-row: 2;
     position: static;
     z-index: auto;
-    height: auto;
+    width: 100%;
+    max-height: none;
+    mask-image: none;
   }
   .hero:after {
     content: none;
