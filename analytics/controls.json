@@ -1055,56 +1055,6 @@
       "label": "Residential cleaning · seek",
       "placement": "Videos"
     },
-    "videos-carpet-extraction-in-action:play": {
-      "kind": "video_play",
-      "label": "Carpet extraction in action · play",
-      "placement": "Videos"
-    },
-    "videos-carpet-extraction-in-action:pause": {
-      "kind": "video_pause",
-      "label": "Carpet extraction in action · pause",
-      "placement": "Videos"
-    },
-    "videos-carpet-extraction-in-action:end": {
-      "kind": "video_end",
-      "label": "Carpet extraction in action · end",
-      "placement": "Videos"
-    },
-    "videos-carpet-extraction-in-action:seek": {
-      "kind": "video_seek",
-      "label": "Carpet extraction in action · seek",
-      "placement": "Videos"
-    },
-    "videos-open-the-mp4": {
-      "kind": "navigation",
-      "label": "Open the MP4",
-      "placement": "Videos"
-    },
-    "videos-water-recovered-during-extraction:play": {
-      "kind": "video_play",
-      "label": "Water recovered during extraction · play",
-      "placement": "Videos"
-    },
-    "videos-water-recovered-during-extraction:pause": {
-      "kind": "video_pause",
-      "label": "Water recovered during extraction · pause",
-      "placement": "Videos"
-    },
-    "videos-water-recovered-during-extraction:end": {
-      "kind": "video_end",
-      "label": "Water recovered during extraction · end",
-      "placement": "Videos"
-    },
-    "videos-water-recovered-during-extraction:seek": {
-      "kind": "video_seek",
-      "label": "Water recovered during extraction · seek",
-      "placement": "Videos"
-    },
-    "videos-open-the-mp4-2": {
-      "kind": "navigation",
-      "label": "Open the MP4",
-      "placement": "Videos"
-    },
     "page-content-read-reviews-on-google": {
       "kind": "navigation",
       "label": "Read reviews on Google",
