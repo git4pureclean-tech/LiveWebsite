@@ -637,6 +637,53 @@ details p {
   color: #c9e7f4;
   font-size: 0.82rem;
 }
+.analytics-banner {
+  position: fixed;
+  z-index: 10;
+  inset-inline-end: max(1rem, env(safe-area-inset-right));
+  inset-block-end: max(1rem, env(safe-area-inset-bottom));
+  width: min(26rem, calc(100% - 2rem));
+  max-height: calc(100% - 2rem);
+  overflow: auto;
+  padding: 1.25rem;
+  border: 1px solid var(--dark);
+  border-radius: var(--round);
+  background: var(--white);
+  color: var(--dark);
+  box-shadow: 0 10px 32px #12395030;
+}
+.analytics-banner h2 {
+  font-size: 1.75rem;
+}
+.analytics-banner p {
+  margin-block: 0.65rem 1rem;
+  font-size: 0.95rem;
+}
+.analytics-banner-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+.analytics-banner-actions button {
+  flex: 1 1 auto;
+  min-height: 44px;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid var(--dark);
+  border-radius: var(--round);
+  color: var(--dark);
+  font-weight: 700;
+}
+.analytics-banner-actions button:hover {
+  background: var(--line);
+}
+.analytics-banner > a {
+  display: inline-block;
+  margin-top: 0.6rem;
+  padding-block: 0.35rem;
+  font-size: 0.875rem;
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
 .inner-top {
   padding: 32px 0 54px;
 }
